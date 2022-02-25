@@ -19,6 +19,7 @@ function rep_search () {
     value1=$(apk search -v | wc -l)
     echo "Общее число доступных для скачивания репозиториев: $value1"
     echo " "
+    
 } 
 
 function rep_user_info () {
@@ -42,8 +43,6 @@ function rep_user_info () {
     $rep_title --version
     echo " "
     fi
-
-    
 
 }
 

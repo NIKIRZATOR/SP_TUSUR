@@ -123,6 +123,9 @@ while [ true ]; do
 	4) on_repo;;
 	5) new_rep;;
 	6) exit;;
+	*) echo "Try again";;
+esac
+done
 	*) echo "Команда не поддерживается"
 esac
 done

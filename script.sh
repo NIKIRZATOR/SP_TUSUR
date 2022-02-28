@@ -126,6 +126,3 @@ while [ true ]; do
 	*) echo "Try again";;
 esac
 done
-	*) echo "Команда не поддерживается"
-esac
-done
